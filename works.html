@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Works | Naoka's Gallery</title>
+    <link rel="stylesheet" href="./sanitize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./icon.ico">
+    <link rel="stylesheet" href="./icomoon/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+    <script src="./js/external/jquery/jquery.js"></script>
+    <script src="./js/external/jquery/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./js/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./dist/css/lightbox.css" />
+    <script>
+        $(function() {
+            $("#aside ul li").click(function() {
+                $("#aside ul li").removeClass('select');
+                $(this).addClass('select');
+                var aside = $(this).attr('id');
+                if (aside == 'coding') {
+                    $("#works a").hide();
+                    $(".coding").fadeIn(1500);
+                } else if (aside == 'illust') {
+                   $("#works a").hide();
+                    $(".illust").fadeIn(1500);
+                } else if (aside == 'three') {
+                    $("#works a").hide();
+                    $(".three").fadeIn(1500);
+                } else {
+                    $("#works a").fadeIn(1500).show();
+                }
+            });
+            
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div id="container" class="clearfix">
+            <h1 id="logo"><a href="./index.html"><span class="ribbon">&bowtie;</span> Naoka's Gallery</a></h1>
+            <ul class="icon-font">
+                <li><a href="#" class="icon-twitter"></a></li>
+                <li><a href="#" class="icon-facebook"></a></li>
+                <li><a href="#" class="icon-pinterest"></a></li>
+            </ul>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li class="current"><a href="./works.html">Works</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <hr>
+    <h1 class="title">Works</h1>
+    <div class="worksContainer">
+        <!-- aside -->
+        <aside id="aside">
+            <ul>
+                <li id="all" class="select">All</li>
+                <li id="coding">Programming Art</li>
+                <li id="illust">Illustration</li>
+                <li id="three">3DCG</li>
+            </ul>
+        </aside>
+
+        <section id="works" class="pic">
+            <a href="./gallery/starlit.jpg" data-lightbox="Coding Art1" data-title="&#12300;Starlit Sky&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/starlit_s.png" alt="Starlit Sky"></a>
+            <a href="./gallery/ill.jpg" data-lightbox="Coding Art2" data-title="&#12300;Ill Fellings&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/ill_s.png" alt="Ill Fellings"></a>
+            <a href="./gallery/sushi.jpg" data-lightbox="3DCG" data-title="&#12300;お寿司&#12301;&emsp;使用スキル：3ds MAX" class="three"><img src="./gallery/sushi_s.png" alt="お寿司"></a>
+            <a href="./gallery/pink.png" data-lightbox="Coding Art3" data-title="&#12300;Pink Falls&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/pink_s.png" alt="Pink Falls"></a>
+            <a href="./gallery/newyear.png" data-lightbox="Illust1" data-title="&#12300;年賀状2017&#12301;&emsp;使用スキル：CLIP STUDIO PAINT" class="illust"><img src="./gallery/newyear_s.png" alt="年賀状2017"></a>
+            <a href="./gallery/balloon.png" data-lightbox="Illust2" data-title="&#12300;プレゼント&#12301;&emsp;使用スキル：CLIP STUDIO PAINT" class="illust"><img src="./gallery/balloon_s.png" alt="風船のプレゼント"></a>
+            <a href="./gallery/girl.jpg" data-lightbox="Illust3" data-title="&#12300;風船と少女&#12301;&emsp;使用スキル：CLIP STUDIO PAINT" class="illust"><img src="./gallery/girl_s.jpg" alt="風船と少女"></a>
+            <a href="./gallery/choco.jpg" data-lightbox="Coding Art4" data-title="&#12300;Chocoholic&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/choco_s.png" alt="Chocoholic"></a>
+            <a href="./gallery/box.jpg" data-lightbox="Coding Art5" data-title="&#12300;Colorful Cube&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/box_s.png" alt="Colorful Cube"></a>
+            <a href="./gallery/crack.jpg" data-lightbox="Coding Art6" data-title="&#12300;Icy Crack&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/crack_s.png" alt="Icy Crack"></a>
+            <a href="./gallery/relax.png" data-lightbox="Illust4" data-title="&#12300;まったり&#12301;&emsp;使用スキル：IllustStudio" class="illust"><img src="./gallery/relax_s.png" alt="まったり"></a>
+            <a href="./gallery/letter.jpg" data-lightbox="Coding Art7" data-title="&#12300;Love Leter&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/letter_s.png" alt="Love Leter"></a>
+            <a href="./gallery/glitter.jpg" data-lightbox="Coding Art8" data-title="&#12300;The Glitter&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/glitter_s.jpg" alt="The Glitter"></a>
+            <a href="./gallery/sophia.png" data-lightbox="Illust5" data-title="&#12300;キャラクターデザイン案１&#12301;&emsp;使用スキル：CLIP STUDIO PAINT" class="illust"><img src="./gallery/sophia_s.png" alt="キャラクターデザイン案１"></a>
+            <a href="./gallery/anila.png" data-lightbox="Illust6" data-title="&#12300;キャラクターデザイン案２&#12301;&emsp;使用スキル：CLIP STUDIO PAINT" class="illust"><img src="./gallery/anila_s.png" alt="キャラクターデザイン案２"></a>
+            <a href="./gallery/candy.png" data-lightbox="Coding Art9" data-title="&#12300;Vivit Candy&#12301;&emsp;使用スキル：Processing" class="coding"><img src="./gallery/candy_s.png" alt="Vivit Candy"></a>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <p id="copyright"><small>&copy; 2017 Naoka All Rights Reserved.</small></p>
+    </footer>
+
+
+    <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
