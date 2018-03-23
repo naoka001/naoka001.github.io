@@ -34,8 +34,8 @@ a:visited,
 .icon-font {
     float: right;
     font-family: sans-serif;
-    width: 150px;
-    margin-top: 40px;
+    width: 128px;
+    padding-top: 30px;
 }
 
 .icon-font li {
@@ -43,7 +43,7 @@ a:visited,
     display: inline-block;
     font-size: 30px;
     margin-right: 5px;
-    padding-right: 5px;
+    
 }
 
 .icon-font li a,
@@ -77,7 +77,7 @@ hr {
     align-content: center;
     align-items: center;    
     width: 1040px;
-    margin-top: 60px;
+    margin-top: 65px;
     font-size: 35px;
 }
 
@@ -237,5 +237,5 @@ input.submitBtn:hover{
 /* FOOTER */
 #footer {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 95px;
 }
