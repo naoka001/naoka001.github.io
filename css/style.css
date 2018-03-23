@@ -33,16 +33,12 @@ a:visited,
 /* ICON FONT */
 .icon-font {
     float: right;
-}
-
-.icon-font,
-#profile.link {
     font-family: sans-serif;
-    width: 180px;
+    width: 150px;
     margin-top: 40px;
 }
 
-ul.icon-font li {
+.icon-font li {
     cursor: pointer;
     display: inline-block;
     font-size: 30px;
@@ -52,7 +48,6 @@ ul.icon-font li {
 
 .icon-font li a,
 #profile a {
-    
     color: black;
     list-style-type: none;
     text-decoration: none;
@@ -102,7 +97,6 @@ hr {
 #topContainer img {
     margin-top: 35px;
     margin-left: 45px;
-    ;
 }
 
 .clearfix:after {
@@ -129,13 +123,13 @@ h1.title {
 
 #nav ul {
     list-style: none;
-    padding-left: 325px;
+    padding-left: 220px;
     /*(width(nav)-width(li))/2*/
 }
 
 #nav ul li {
     float: left;
-    width: 130px;
+    width: 200px;
     font-size: 18px;
     text-align: center;
 }
