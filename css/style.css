@@ -78,7 +78,6 @@ hr {
     align-items: center;    
     width: 1000px;
     margin-top: 65px;
-    font-size: 35px;
 }
 
 #topContainer .introduce {
@@ -90,7 +89,7 @@ hr {
     display: inline;
     font-weight: bold;
     font-family: cursive;
-    font-size: 52px;
+    font-size: 54px;
 }
 
 #topContainer h2 {
