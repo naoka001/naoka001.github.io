@@ -87,7 +87,7 @@ hr {
 #topContainer h1 {
     background: linear-gradient(transparent 72%, #FC2C44 0%);
     display: inline;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: 'Patua One', cursive;
     font-size: 54px;
 }
