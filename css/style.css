@@ -81,15 +81,15 @@ hr {
 }
 
 #topContainer .introduce {
-    width: 450px;
+    width: 428px;
 }
 
 #topContainer h1 {
     background: linear-gradient(transparent 72%, #FC2C44 0%);
     display: inline;
     font-weight: bold;
-    font-family: cursive;
-    font-size: 54px;
+    font-family: 'Patua One', cursive;
+    font-size: 59px;
 }
 
 #topContainer h2 {
