@@ -8,7 +8,6 @@ body {
     margin: 20px 0 35px 0;
 }
 
-/* LOGO */
 #logo {
     float: left;
     font-family: 'Limelight', cursive;
@@ -30,7 +29,6 @@ a:visited,
     color: red;
 }
 
-/* ICON FONT */
 .icon-font {
     float: right;
 }
@@ -52,7 +50,6 @@ ul.icon-font li {
 
 .icon-font li a,
 #profile a {
-    
     color: black;
     list-style-type: none;
     text-decoration: none;
@@ -69,12 +66,12 @@ ul.icon-font li {
 }
 
 hr {
+    width: 1022px;
     border: none;
     border-top: dashed 1.2px black;
     height: 1px;
 }
 
-/* TOP PAGE */
 #topContainer {
     display: flex;
     justify-content: center;
@@ -97,6 +94,7 @@ hr {
 
 #topContainer .introduce {
     width: 450px;
+    padding-top: 5px;
 }
 
 #topContainer img {
@@ -116,13 +114,11 @@ h1.title {
     padding-top: 20px;
 }
 
-/* ABOUT */
 #profile{
      margin: 55px 0;
     text-align: center;
 }
 
-/* GROBAL NAVI */
 #nav {
     width: 1040px;
     height: 30px;
@@ -130,13 +126,13 @@ h1.title {
 
 #nav ul {
     list-style: none;
-    padding-left: 325px;
-    /*(width(nav)-width(li))/2*/
+    padding-left: 220px;
+    /*(width(nav)-width(li)*3)/2*/
 }
 
 #nav ul li {
     float: left;
-    width: 130px;
+    width: 200px;
     font-size: 18px;
     text-align: center;
 }
@@ -160,10 +156,9 @@ h1.title {
     text-decoration: none;
 }
 
-/* WORKS */
 .worksContainer {
     display: flex;
-    margin: 35px 0;
+    margin: 55px 0;
 }
 
 #aside {
@@ -175,7 +170,7 @@ h1.title {
     list-style: none;
     border-left: black 10px solid;
     border-bottom: black 1px solid;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
     padding: 10px 10px;
     cursor: pointer;
 }
@@ -192,12 +187,8 @@ h1.title {
     margin-left: 50px;
 }
 
-p.coding, p.illust, p.three {
-   padding: 6px 0 3px 28px;
-}
-
-#works a, #works p {
-    display: none;
+#works a{
+  display: none;
 }
 
 #works img {
@@ -208,7 +199,6 @@ p.coding, p.illust, p.three {
     opacity: 0.6;
 }
 
-/* CONTACT */
 form{
     margin: 55px 0 0 42px;
 }
@@ -246,7 +236,6 @@ input.submitBtn:hover{
 	color: white;
 }
 
-/* FOOTER */
 #footer {
     text-align: center;
     margin-top: 80px;
