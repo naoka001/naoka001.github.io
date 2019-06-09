@@ -187,6 +187,10 @@ h1.title {
     margin-left: 50px;
 }
 
+#works a{
+    display: none;
+}
+
 #works img {
     padding: 15px 0 50px 30px;
 }
@@ -216,9 +220,9 @@ textarea{
 }
 
 input.submitBtn{
-    width: 100px;
+  width: 100px;
 	height: 50px;
-    margin:10px 0 0 153px;
+  margin:10px 0 0 153px;
 	cursor: pointer;
 	border: 2px #FC2C44 solid;
 	font-size: 15px;
