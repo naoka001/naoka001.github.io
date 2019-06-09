@@ -1,6 +1,6 @@
 body {
     font-family: "メイリオ", "Mplus 1p", sans-serif;
-    width: 1040px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -8,6 +8,7 @@ body {
     margin: 20px 0 35px 0;
 }
 
+/* LOGO */
 #logo {
     float: left;
     font-family: 'Limelight', cursive;
@@ -15,7 +16,7 @@ body {
     font-size: 40px;
     color: black;
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #logo a,
@@ -29,23 +30,20 @@ a:visited,
     color: red;
 }
 
+/* ICON FONT */
 .icon-font {
     float: right;
-}
-
-.icon-font,
-#profile.link {
     font-family: sans-serif;
-    width: 180px;
-    margin-top: 40px;
+    width: 138px;
+    padding-top: 30px;
 }
 
-ul.icon-font li {
+.icon-font li {
     cursor: pointer;
     display: inline-block;
     font-size: 30px;
     margin-right: 5px;
-    padding-right: 5px;
+
 }
 
 .icon-font li a,
@@ -66,41 +64,41 @@ ul.icon-font li {
 }
 
 hr {
-    width: 1022px;
     border: none;
     border-top: dashed 1.2px black;
     height: 1px;
 }
 
+/* TOP PAGE */
 #topContainer {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    width: 1040px;
-    margin: 30px 0 0 0;
-    font-size: 35px;
-}
-
-#topContainer .welcome {
-    background: linear-gradient(transparent 72%, #FC2C44 0%);
-    display: inline;
-    font-family: 'PacificoS', cursive;
-    font-size: 52px;
-    //height: 10px;
-}
-
-#topContainer h2 {
-    font-size: 15px;
+    align-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-top: 65px;
 }
 
 #topContainer .introduce {
-    width: 450px;
-    padding-top: 90px;
+    width: 428px;
+}
+
+#topContainer h1 {
+    background: linear-gradient(transparent 72%, #FC2C44 0%);
+    display: inline;
+    font-weight: lighter;
+    font-family: 'Patua One', cursive;
+    font-size: 58px;
+}
+
+#topContainer h2 {
+    padding-top: 25px;
+    font-size: 15px;
 }
 
 #topContainer img {
-    margin-top: 35px;
     margin-left: 45px;
-    ;
 }
 
 .clearfix:after {
@@ -115,19 +113,20 @@ h1.title {
 }
 
 #profile{
-     margin: 55px 0;
+    margin: 35px 0;
     text-align: center;
 }
 
+/* GROBAL NAVI */
 #nav {
-    width: 1040px;
+    width: 1000px;
     height: 30px;
 }
 
 #nav ul {
     list-style: none;
-    padding-left: 220px;
-    /*(width(nav)-width(li)*3)/2*/
+    padding-left: 200px;
+    /*(width(nav)-width(li))/2*/
 }
 
 #nav ul li {
@@ -156,9 +155,10 @@ h1.title {
     text-decoration: none;
 }
 
+/* WORKS */
 .worksContainer {
     display: flex;
-    margin: 55px 0;
+    margin: 47px 0;
 }
 
 #aside {
@@ -187,10 +187,6 @@ h1.title {
     margin-left: 50px;
 }
 
-#works a{
-  display: none;
-}
-
 #works img {
     padding: 15px 0 50px 30px;
 }
@@ -199,6 +195,7 @@ h1.title {
     opacity: 0.6;
 }
 
+/* CONTACT */
 form{
     margin: 55px 0 0 42px;
 }
@@ -236,7 +233,8 @@ input.submitBtn:hover{
 	color: white;
 }
 
+/* FOOTER */
 #footer {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 95px;
 }
