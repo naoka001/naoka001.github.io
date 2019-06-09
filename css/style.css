@@ -1,6 +1,6 @@
 body {
     font-family: "メイリオ", "Mplus 1p", sans-serif;
-    width: 1000px;
+    width: 1040px;
     margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ body {
     font-size: 40px;
     color: black;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #logo a,
@@ -33,21 +33,26 @@ a:visited,
 /* ICON FONT */
 .icon-font {
     float: right;
-    font-family: sans-serif;
-    width: 138px;
-    padding-top: 30px;
 }
 
-.icon-font li {
+.icon-font,
+#profile.link {
+    font-family: sans-serif;
+    width: 180px;
+    margin-top: 40px;
+}
+
+ul.icon-font li {
     cursor: pointer;
     display: inline-block;
     font-size: 30px;
     margin-right: 5px;
-    
+    padding-right: 5px;
 }
 
 .icon-font li a,
 #profile a {
+    
     color: black;
     list-style-type: none;
     text-decoration: none;
@@ -72,33 +77,32 @@ hr {
 /* TOP PAGE */
 #topContainer {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-content: center;
-    align-items: center;    
-    width: 1000px;
-    margin-top: 65px;
+    width: 1040px;
+    margin: 30px 0 0 0;
+    font-size: 35px;
 }
 
-#topContainer .introduce {
-    width: 428px;
-}
-
-#topContainer h1 {
+#topContainer .welcome {
     background: linear-gradient(transparent 72%, #FC2C44 0%);
     display: inline;
-    font-weight: lighter;
-    font-family: 'Patua One', cursive;
-    font-size: 58px;
+    font-family: 'PacificoS', cursive;
+    font-size: 52px;
+    //height: 10px;
 }
 
 #topContainer h2 {
-    padding-top: 25px;
     font-size: 15px;
 }
 
+#topContainer .introduce {
+    width: 450px;
+}
+
 #topContainer img {
+    margin-top: 35px;
     margin-left: 45px;
+    ;
 }
 
 .clearfix:after {
@@ -112,26 +116,27 @@ h1.title {
     padding-top: 20px;
 }
 
+/* ABOUT */
 #profile{
-    margin: 35px 0;
+     margin: 55px 0;
     text-align: center;
 }
 
 /* GROBAL NAVI */
 #nav {
-    width: 1000px;
+    width: 1040px;
     height: 30px;
 }
 
 #nav ul {
     list-style: none;
-    padding-left: 200px;
+    padding-left: 325px;
     /*(width(nav)-width(li))/2*/
 }
 
 #nav ul li {
     float: left;
-    width: 200px;
+    width: 130px;
     font-size: 18px;
     text-align: center;
 }
@@ -158,7 +163,7 @@ h1.title {
 /* WORKS */
 .worksContainer {
     display: flex;
-    margin: 47px 0;
+    margin: 35px 0;
 }
 
 #aside {
@@ -170,7 +175,7 @@ h1.title {
     list-style: none;
     border-left: black 10px solid;
     border-bottom: black 1px solid;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     padding: 10px 10px;
     cursor: pointer;
 }
@@ -185,6 +190,14 @@ h1.title {
 #works {
     width: 780px;
     margin-left: 50px;
+}
+
+p.coding, p.illust, p.three {
+   padding: 6px 0 3px 28px;
+}
+
+#works a, #works p {
+    display: none;
 }
 
 #works img {
@@ -236,5 +249,5 @@ input.submitBtn:hover{
 /* FOOTER */
 #footer {
     text-align: center;
-    margin-top: 95px;
+    margin-top: 80px;
 }
