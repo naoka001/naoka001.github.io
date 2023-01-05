@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
       </Head>
       <main className={styles.main}>
         <div className={styles.title}>
-          <FontAwesomeIcon icon={faLock} size="6x" />
+          <FontAwesomeIcon icon={faLock} className={styles.logo} />
           <h1>プライバシーポリシー</h1>
         </div>
         <div className={styles.content}>
@@ -28,11 +28,10 @@ export default function PrivacyPolicy() {
               Hosoda（以下、「当方」）は、自身が開発・運用するサービス（以下、「本サービス」）に関して、以下のプライバシーポリシーを適用します。
             </p>
             <br />
-            <p>
-              【本サービス一覧】
-              <br />
-              &nbsp;&nbsp;・ 『フリマ計算』（iOSアプリ）
-            </p>
+            <p>【本サービス一覧】</p>
+            <ul>
+              <li>『フリマ計算』（iOSアプリ）</li>
+            </ul>
           </div>
           <div className={styles.item}>
             <h2>２．個人情報の取り扱い</h2>

@@ -6,6 +6,10 @@
   padding: 6rem 0.5rem;
 }
 
+.logo {
+  font-size: 6rem;
+}
+
 .title {
   display: flex;
   flex-direction: column;
@@ -39,9 +43,14 @@
   font-weight: 600;
 }
 
-.item p {
+.item p,
+.item ul li {
   color: var(--col-text);
   line-height: 1.5;
+}
+
+.item ul {
+  padding: 0.5em 0 0 2em;
 }
 
 .footer {
@@ -52,12 +61,20 @@
 /* Mobile */
 @media (max-width: 700px) {
   .main {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .content {
     margin: 0.2rem;
-    padding: 1.5rem 2rem;
+    padding: 0 2rem;
+  }
+
+  .logo {
+    font-size: 4rem;
+  }
+
+  .title h1 {
+    font-size: 1.6rem;
   }
 
   .item h2 {
