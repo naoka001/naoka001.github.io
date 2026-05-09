@@ -40,6 +40,7 @@ export default function Home() {
                 width={280}
                 height={607}
                 className={styles.appImage}
+                loading="eager"
               />
               <div className={styles.appInfo}>
                 <h2 className={styles.appName}>{app.name}</h2>
