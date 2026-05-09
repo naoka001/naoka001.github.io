@@ -31,6 +31,7 @@ export default function PrivacyPolicy() {
             <p>【本サービス一覧】</p>
             <ul>
               <li>『フリマ計算』（iOSアプリ）</li>
+              <li>『フリマ定型文』（iOSアプリ）</li>
             </ul>
           </div>
           <div className={styles.item}>
@@ -64,13 +65,13 @@ export default function PrivacyPolicy() {
               プライバシーポリシーに関するご意見・ご不明点等がありましたら、以下までご連絡ください。
             </p>
             <br />
-            <p>naoka001.inquiry[at]gmail.com</p>
+            <p>naoka001.contact[at]gmail.com</p>
           </div>
         </div>
       </main>
       <footer className={styles.footer}>
         <p>
-          <small>&copy; 2023 Naoka All Rights Reserved.</small>
+          <small>&copy; 2026 Naoka Hosoda All Rights Reserved.</small>
         </p>
       </footer>
     </>
